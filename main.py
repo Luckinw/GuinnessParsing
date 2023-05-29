@@ -60,4 +60,4 @@ for url in links:
         record, author = exract_title_who(for_title_who)
         data = [[record,author,for_title_who]]
         writer.writerows(data)
-        # sleep(randint(3,15))
+        sleep(randint(3,15))
